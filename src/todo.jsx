@@ -90,7 +90,7 @@ export default function ToDoList() {
         onChange={updateTodoValue}
       />
       &nbsp;&nbsp;
-      <button onClick={addNewTask}> <i className="fa-solid fa-circle-plus"></i>&nbsp;Add</button>
+      <button onClick={addNewTask}> <i className="fa-solid fa-circle-plus search"></i>&nbsp;Add</button>
 
       <h4>To Do List</h4>
 

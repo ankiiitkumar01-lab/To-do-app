@@ -88,9 +88,11 @@ h4 {
   }
 
   /* keep input row same (NO column change) */
-  .input-box {
-    flex-direction: row;
-  }
+ .input-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 
   input {
     font-size: 14px;
@@ -100,6 +102,7 @@ h4 {
   button {
     font-size: 14px;
     padding: 8px 10px;
+     margin-top: 8px;
   }
 
   li {
@@ -115,4 +118,5 @@ h4 {
   li button {
     padding: 4px;
   }
+  
 }
